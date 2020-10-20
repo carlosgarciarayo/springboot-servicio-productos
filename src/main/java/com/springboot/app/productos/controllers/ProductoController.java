@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.productos.controllers;
+package com.springboot.app.productos.controllers;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.formacionbdi.springboot.app.productos.models.entity.Producto;
-import com.formacionbdi.springboot.app.productos.models.service.IProductoService;
+import com.springboot.app.productos.models.entity.Producto;
+import com.springboot.app.productos.models.service.IProductoService;
 
 @RestController
 public class ProductoController {

@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.productos;
+package com.springboot.app.productos;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
