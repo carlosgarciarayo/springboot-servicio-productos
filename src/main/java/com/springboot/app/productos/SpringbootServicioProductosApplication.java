@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EntityScan({"com.app.ms.commons.models.entity"})
 public class SpringbootServicioProductosApplication {
 
+	//comentrio
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootServicioProductosApplication.class, args);
 	}
